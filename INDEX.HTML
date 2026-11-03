@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    margin: 0;
+    font-family: Calibri, Arial, sans-serif;
+    background: #f4f6f8;
+    color: #243346;
+}
+
+header {
+    background: white;
+    border-bottom: 1px solid #e3e7eb;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 260px;
+    max-width: 75%;
+    height: auto;
+}
+
+header img.verified {
+    display: block;
+    width: 70px;
+    max-width: 30%;
+    margin: 14px auto 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 34px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #e1e6eb;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 24px #20364c0a;
+}
+
+.title {
+    text-align: center;
+    padding: 28px 20px;
+    border-bottom: none;
+}
+
+h1 {
+    font-size: 26px;
+    color: #1266a0;
+    margin: 0 0 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #6b7785;
+    margin: 0;
+}
+
+.details {
+    padding: 26px 32px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.85fr) minmax(0, 1.15fr);
+    column-gap: 26px;
+    row-gap: 60px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+dl > div {
+    display: contents;
+}
+
+dt,
+dd {
+    align-self: center;
+}
+
+/* Labels: Name, Course, Date, etc. */
+dt {
+    font-size: 22px !important;
+    color: #808080 !important;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Values: V Sai Karthik, etc. */
+dd {
+    font-size: 20px !important;
+    color: #000000 !important;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.full {
+    grid-column: 1 / -1;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 4px 0 25px;
+}
+
+a.button {
+    background: #116aa5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 13px 22px;
+    font-size: 14px;
+}
+
+.button.secondary {
+    background: #71a440;
+}
+
+.document {
+    background: #f8fafb;
+    padding: 22px;
+    border-top: none;
+}
+
+.document img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 12px #00000015;
+}
+
+.note {
+    font-size: 12px;
+    color: #788492;
+    line-height: 1.7;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+a {
+    color: #116aa5;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    .details {
+        padding: 24px 20px;
+    }
+
+    dl {
+        grid-template-columns: minmax(110px, 0.8fr) minmax(0, 1.2fr);
+        column-gap: 12px;
+        row-gap: 32px;
+    }
+
+    .document {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .actions a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.frame {
+    min-height: 80vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) border-box;
+          display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+      padding: 40px 20px;
+    box-sizing: border-box;
+}
+header {
+    border-bottom: none;
+}
+.title {
+    border-bottom: none;
+}
+.document {
+    border-top: none;
+}
+</style>
+</head>
+<body>
+  <div class="frame">
+<header>
+<img src="eduskills-logo.png" alt="Eduskills Logo">
+<img class="verified" src="verified-logo.jpeg" alt="Verified">
+</header>
+<p style="font-size: 24px; color: blue; text-align: center;font-weight: bold;">
+    Your Certificate has been verified successfully
+</p>
+<main>
+<dl>
+<div>
+<dt>Name:</dt>
+<dd>V Sai Karthik</dd>
+</div>
+<div>
+<dt>Domain:</dt>
+<dd>Machine Learning and Data Science</dd>
+</div>
+<div>
+<dt>Certificate Code:</dt>
+<dd>2026-1B7D9C4C2F</dd>
+</div>
+<div>
+<dt>Issue Date:</dt>
+<dd>2026-10-05</dd>
+</div>
+</dl>
+</main>
+</div>
+</body>
+</html>
